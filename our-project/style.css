@@ -7,3 +7,19 @@
   margin-top: 60px;
 }
 
+.img{
+  width: 20rem;
+    height: 25rem;
+    border-width: 2rem;
+    padding: 10px 10px;
+    background-color: rgb(182, 205, 255);
+  }
+
+
+.CC{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  height: 50vh; 
+  margin-top: 1rem;
+}
