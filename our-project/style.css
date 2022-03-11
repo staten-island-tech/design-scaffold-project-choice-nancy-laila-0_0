@@ -7,16 +7,17 @@
   margin-top: 60px;
 }
 
+
 .img{
-  width: 20rem;
+  width: 25rem;
     height: 25rem;
     border-width: 2rem;
     padding: 10px 10px;
     background-color: rgb(182, 205, 255);
+    margin: 2rem;
   }
 
-
-.CC{
+.Countries{
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
