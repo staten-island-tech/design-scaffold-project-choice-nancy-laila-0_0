@@ -40,3 +40,13 @@
   height: 50vh; 
   margin-top: 30rem;
 }
+
+
+
+.imgs{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  height: 50vh; 
+  margin-top: 40rem;
+}
