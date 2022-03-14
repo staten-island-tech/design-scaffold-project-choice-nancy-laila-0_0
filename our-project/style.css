@@ -17,10 +17,26 @@
     margin: 2rem;
   }
 
-.Countries{
+#Countries{
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
   height: 50vh; 
   margin-top: 1rem;
+}
+
+#Food{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  height: 50vh; 
+  margin-top: 30rem;
+}
+
+#Activities{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  height: 50vh; 
+  margin-top: 30rem;
 }
