@@ -11,10 +11,9 @@
 .img{
   width: 25rem;
     height: 25rem;
-    border-width: 2rem;
-    padding: 10px 10px;
-    background-color: rgb(182, 205, 255);
     margin: 2rem;
+    border-width: 1rem;
+    padding: 5px 5px;
   }
 
 #Countries{
@@ -44,9 +43,33 @@
 
 
 .imgs{
+  width: 7rem;
+    height: 7rem;
+    border-width: 1rem;
+    padding: 5px 5px;
+    background-color: rgb(182, 205, 255);
+    border-radius: 50%;
+    margin-top: 30rem;
+}
+
+#Reviews{
+  justify-content:space-evenly;
+  height: 50vh; 
+  margin: 10rem;
+  flex-direction: column;
+  align-items: center;
   display: flex;
   flex-flow: wrap;
-  justify-content: space-evenly;
-  height: 50vh; 
-  margin-top: 40rem;
+}
+
+.header{
+    width: -7rem;
+    margin-top: -5rem;
+    margin-left: -4rem;
+    margin-right: -4rem;
+    height: 20rem;
+    padding:60px;
+    background: #33cccc;
+    color: white;
+    background-image: url(images/banner.jpg);
 }
