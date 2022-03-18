@@ -77,6 +77,46 @@
 
 }
 
-.item{
+
+.itm1{
   font-size: 1rem;
+  text-align: center;
+  margin-top: -1rem;
+  margin-left: -70rem;
+}
+
+.itm2{
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -1rem;
+  margin-left: -60rem;
+}
+
+.itm3{
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -1rem;
+  margin-left: -50rem;
+}
+
+.itm4{
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -1rem;
+  margin-left: -40rem;
+}
+
+.itm5{
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -1rem;
+  margin-left: -30rem;
+}
+
+.bar{
+  justify-content: space-evenly;
+}
+
+.p{
+  text-align: center;
 }
