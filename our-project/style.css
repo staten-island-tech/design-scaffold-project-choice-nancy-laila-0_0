@@ -55,22 +55,28 @@
 }
 
 .header{
-    margin-top: -5rem;
-    margin-left: -4rem;
-    margin-right: -4rem;
-    height: 70rem;
+    margin-top: 4rem;
+    margin-left: -3rem;
+    margin-right: 4rem;
+    height: 100rem;
+    width: 200rem;
     padding:60px;
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+
 }
 
-#heading{
+.title{
   font-size: 2rem;
   text-align: left 8px;
   color:black;
   background-color: rgb(169, 196, 255);
-  position: fixed;
   width:100%;
-  position: fixed;
-  margin-right:-1rem;
-  margin-left: -.2rem;
-  margin-top: -2.5rem;
+  margin-top: -8rem;
+  margin-left: -1.25rem;
+
+}
+
+.item{
+  font-size: 1rem;
 }
