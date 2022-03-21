@@ -68,7 +68,6 @@
 
 .title{
   font-size: 2rem;
-  text-align: left 8px;
   color:black;
   background-color: rgb(169, 196, 255);
   width:100%;
@@ -78,45 +77,18 @@
 }
 
 
-.itm1{
+
+
+.itm{
+  margin-top: -8rem;
+  margin-right: 4rem;
+  margin-left: 12rem;
+  display: inline-block;
   font-size: 1rem;
-  text-align: center;
-  margin-top: -1rem;
-  margin-left: -70rem;
 }
+a {text-decoration: none; }
 
-.itm2{
-  font-size: 1rem;
-  text-align: center;
-  margin-top: -1rem;
-  margin-left: -60rem;
-}
-
-.itm3{
-  font-size: 1rem;
-  text-align: center;
-  margin-top: -1rem;
-  margin-left: -50rem;
-}
-
-.itm4{
-  font-size: 1rem;
-  text-align: center;
-  margin-top: -1rem;
-  margin-left: -40rem;
-}
-
-.itm5{
-  font-size: 1rem;
-  text-align: center;
-  margin-top: -1rem;
-  margin-left: -30rem;
-}
-
-.bar{
-  justify-content: space-evenly;
-}
-
-.p{
-  text-align: center;
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
