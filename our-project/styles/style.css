@@ -63,12 +63,6 @@
 
 .title {
   font-size: 2rem;
-<<<<<<< HEAD:our-project/style.css
-  color:black;
-=======
-  text-align: left 8px;
-  color: black;
->>>>>>> c7bc72787e39330979124b8f6ba78e542c83096e:our-project/styles/style.css
   background-color: rgb(169, 196, 255);
   width: 100%;
   margin-top: -8rem;
@@ -82,71 +76,21 @@
   margin-left: -80rem;
 }
 
-<<<<<<< HEAD:our-project/style.css
-
-
 .itm{
   margin-top: -8rem;
   margin-right: 4rem;
   margin-left: 12rem;
   display: inline-block;
-  font-size: 1rem;
-=======
-.itm2 {
-  font-size: 1rem;
-  text-align: center;
-  margin-top: -1rem;
-  margin-left: -70rem;
-}
+  font-size: 1rem;}
 
-.itm3 {
-  font-size: 1rem;
-  text-align: center;
-  margin-top: -1rem;
-  margin-left: -56rem;
-}
 
-.itm4 {
-  font-size: 1rem;
-  text-align: center;
-  margin-top: -1rem;
-  margin-left: -40rem;
-}
-
-.itm5 {
-  font-size: 1rem;
-  text-align: center;
-  margin-top: -1rem;
-  margin-left: -25rem;
-}
-
-.itm6 {
-  font-size: 1rem;
-  text-align: center;
-  margin-top: -1rem;
-  margin-left: -10rem;
-}
-
-.itm7 {
-  font-size: 1rem;
-  text-align: center;
-  margin-top: -1rem;
-  margin-left: 7rem;
->>>>>>> c7bc72787e39330979124b8f6ba78e542c83096e:our-project/styles/style.css
-}
-a {text-decoration: none; }
-
-<<<<<<< HEAD:our-project/style.css
-a {
+a {text-decoration: none; 
   color: inherit;
   text-decoration: inherit;
-}
-=======
-.bar {
-  justify-content: space-evenly;
+
 }
 
-.p {
-  text-align: center;
-}
->>>>>>> c7bc72787e39330979124b8f6ba78e542c83096e:our-project/styles/style.css
+
+
+
+
