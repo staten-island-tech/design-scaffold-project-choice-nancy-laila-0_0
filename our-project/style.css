@@ -1,52 +1,48 @@
-
-
-.img{
+.img {
   width: 25rem;
-    height: 25rem;
-    margin: 2rem;
-    border-width: 1rem;
-    padding: 5px 5px;
-  }
+  height: 25rem;
+  margin: 2rem;
+  border-width: 1rem;
+  padding: 5px 5px;
+}
 
-#Countries{
+#Countries {
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
-  height: 50vh; 
+  height: 50vh;
   margin-top: 1rem;
 }
 
-#Food{
+#Food {
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
-  height: 50vh; 
+  height: 50vh;
   margin-top: 30rem;
 }
 
-#Activities{
+#Activities {
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
-  height: 50vh; 
+  height: 50vh;
   margin-top: 30rem;
 }
 
-
-
-.imgs{
+.imgs {
   width: 7rem;
-    height: 7rem;
-    border-width: 1rem;
-    padding: 5px 5px;
-    background-color: rgb(182, 205, 255);
-    border-radius: 50%;
-    margin-top: 30rem;
+  height: 7rem;
+  border-width: 1rem;
+  padding: 5px 5px;
+  background-color: rgb(182, 205, 255);
+  border-radius: 50%;
+  margin-top: 30rem;
 }
 
-#Reviews{
-  justify-content:space-evenly;
-  height: 50vh; 
+#Reviews {
+  justify-content: space-evenly;
+  height: 50vh;
   margin: 10rem;
   flex-direction: column;
   align-items: center;
@@ -54,69 +50,66 @@
   flex-flow: wrap;
 }
 
-.header{
-    margin-top: 4rem;
-    margin-left: -3rem;
-    margin-right: 4rem;
-    height: 100rem;
-    width: 200rem;
-    padding:60px;
-    background-image: url(images/banner.jpg);
-    background-repeat: no-repeat;
-
+.header {
+  margin-top: 4rem;
+  margin-left: -3rem;
+  margin-right: 4rem;
+  height: 100rem;
+  width: 200rem;
+  padding: 60px;
+  background-image: url(images/banner.jpg);
+  background-repeat: no-repeat;
 }
 
-.title{
+.title {
   font-size: 2rem;
   text-align: left 8px;
-  color:black;
+  color: black;
   background-color: rgb(169, 196, 255);
-  width:100%;
+  width: 100%;
   margin-top: -8rem;
   margin-left: -1.25rem;
-
 }
 
-
-.itm1{
+.itm1 {
   font-size: 1rem;
   text-align: center;
   margin-top: -1rem;
   margin-left: -70rem;
 }
 
-.itm2{
+.itm2 {
   font-size: 1rem;
   text-align: center;
   margin-top: -1rem;
   margin-left: -60rem;
 }
 
-.itm3{
+.itm3 {
   font-size: 1rem;
   text-align: center;
   margin-top: -1rem;
   margin-left: -50rem;
 }
 
-.itm4{
+.itm4 {
   font-size: 1rem;
   text-align: center;
   margin-top: -1rem;
   margin-left: -40rem;
 }
 
-.itm5{
+.itm5 {
   font-size: 1rem;
   text-align: center;
   margin-top: -1rem;
   margin-left: -30rem;
 }
 
-.bar{
+.bar {
   justify-content: space-evenly;
 }
 
-.p{
+.p {
   text-align: center;
 }
