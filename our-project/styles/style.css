@@ -11,7 +11,7 @@
   flex-flow: wrap;
   justify-content: space-evenly;
   height: 50vh;
-  margin-top: 1rem;
+  margin-top: 15rem;
 }
 
 #Food {
@@ -69,12 +69,7 @@
   margin-left: -1.25rem;
 }
 
-.itm1 {
-  font-size: 1rem;
-  text-align: center;
-  margin-top: -1rem;
-  margin-left: -80rem;
-}
+
 
 .itm{
   margin-top: -8rem;
@@ -90,7 +85,27 @@ a {text-decoration: none;
 
 }
 
+.p{  
+  margin-top: -10rem;
+ text-align: center;
+ align-items: center;
+}
+
+#b1, 
+#b2, 
+#b3{
+  margin-right: 20rem;
+   margin-left: 17rem;
+   margin-top: .5rem;
+   margin-bottom: .5rem;
+    background-color: rgba(195, 195, 255, 0.658);
+}
 
 
 
+@media screen and (max-width:700px){
+  .header{
+      width: 50%;
+  }
+}
 
