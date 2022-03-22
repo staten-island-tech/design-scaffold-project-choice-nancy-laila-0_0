@@ -1,3 +1,10 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
 .img {
   width: 25rem;
   height: 25rem;
@@ -75,35 +82,56 @@
   font-size: 1rem;
   text-align: center;
   margin-top: -1rem;
-  margin-left: -70rem;
+  margin-left: -80rem;
 }
 
 .itm2 {
   font-size: 1rem;
   text-align: center;
   margin-top: -1rem;
-  margin-left: -60rem;
+  margin-left: -70rem;
 }
 
 .itm3 {
   font-size: 1rem;
   text-align: center;
   margin-top: -1rem;
-  margin-left: -50rem;
+  margin-left: -60rem;
 }
 
 .itm4 {
   font-size: 1rem;
   text-align: center;
   margin-top: -1rem;
-  margin-left: -40rem;
+  margin-left: -50rem;
 }
 
 .itm5 {
   font-size: 1rem;
   text-align: center;
   margin-top: -1rem;
+  margin-left: -40rem;
+}
+
+.itm6 {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -1rem;
   margin-left: -30rem;
+}
+
+.itm7 {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -1rem;
+  margin-left: -20rem;
+}
+
+.itm8 {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -1rem;
+  margin-left: -10rem;
 }
 
 .bar {
