@@ -1,3 +1,7 @@
+body{
+  background-color: rgb(211, 211, 211);
+}
+
 .img {
   width: 25rem;
   height: 25rem;
@@ -54,29 +58,37 @@
   margin-top: 4rem;
   margin-left: -3rem;
   margin-right: 4rem;
-  height: 100rem;
-  width: 200rem;
+  height: 50vh;
+  width: 95vw;
   padding: 60px;
   background-image: url(images/banner.jpg);
   background-repeat: no-repeat;
+  background-size: 100vw, 70vh;
 }
 
-.title {
+.title{
+  font-size: 3rem;
+  font-family:  'Uncial Antiqua', cursive;
+margin-left: 4rem;
+}
+
+.heading {
   font-size: 2rem;
   background-color: rgb(169, 196, 255);
-  width: 100%;
-  margin-top: -8rem;
-  margin-left: -1.25rem;
+  width: 100vw;
+  margin-top: -10.5rem;
+  margin-left: -1.5rem;
+  margin-right: 0rem;
 }
 
 
 
 .itm{
-  margin-top: -8rem;
+  margin-top: -12rem;
   margin-right: 4rem;
   margin-left: 12rem;
   display: inline-block;
-  font-size: 1rem;}
+  font-size: 1.5rem;}
 
 
 a {text-decoration: none; 
@@ -89,6 +101,8 @@ a {text-decoration: none;
   margin-top: -10rem;
  text-align: center;
  align-items: center;
+ font-size: 2rem;
+ font-family: 'Uncial Antiqua', cursive;
 }
 
 #b1, 
@@ -104,7 +118,7 @@ a {text-decoration: none;
 
 
 @media screen and (max-width:700px){
-  .header{
+  .screen{
       width: 50%;
   }
 }
