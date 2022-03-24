@@ -29,6 +29,15 @@ body {
   height: 5vh;
   margin-top: 30rem;
 }
+#Reviews {
+  justify-content: space-evenly;
+  height: 5vh;
+  margin: 10rem;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex-flow: wrap;
+}
 
 .img {
   width: 300px; /* width of container */
@@ -46,16 +55,6 @@ body {
   background-color: rgb(182, 205, 255);
   border-radius: 50%;
   margin-top: 30rem;
-}
-
-#Reviews {
-  justify-content: space-evenly;
-  height: 50vh;
-  margin: 10rem;
-  flex-direction: column;
-  align-items: center;
-  display: flex;
-  flex-flow: wrap;
 }
 
 .header {
