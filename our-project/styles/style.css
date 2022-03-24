@@ -1,15 +1,9 @@
 html,
 body {
   background-color: rgb(211, 211, 211);
+  padding: 0%;
+  margin: 0%;
   max-width: 100vw;
-}
-
-.img {
-  width: 300px; /* width of container */
-  height: 300px; /* height of container */
-  object-fit: cover;
-  object-position: 20% 10%; /* try 20px 10px */
-  border: 2px solid black;
 }
 
 #Countries {
@@ -34,6 +28,14 @@ body {
   justify-content: space-evenly;
   height: 50vh;
   margin-top: 30rem;
+}
+
+.img {
+  width: 300px; /* width of container */
+  height: 300px; /* height of container */
+  object-fit: cover;
+  object-position: 20% 10%;
+  border: 2px solid black;
 }
 
 .pfps {
