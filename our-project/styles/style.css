@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
-  height: 50vh;
+  height: 5vh;
   margin-top: 7rem;
 }
 
@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
-  height: 50vh;
+  height: 5vh;
   margin-top: 30rem;
 }
 
@@ -26,7 +26,7 @@ body {
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
-  height: 50vh;
+  height: 5vh;
   margin-top: 30rem;
 }
 
