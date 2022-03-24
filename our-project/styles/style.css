@@ -5,11 +5,11 @@ body {
 }
 
 .img {
-  width: 25rem;
-  height: 25rem;
-  margin: 2rem;
-  border-width: 1rem;
-  padding: 5px 5px;
+  width: 300px; /* width of container */
+  height: 300px; /* height of container */
+  object-fit: cover;
+  object-position: 20% 10%; /* try 20px 10px */
+  border: 2px solid black;
 }
 
 #Countries {
@@ -36,7 +36,7 @@ body {
   margin-top: 30rem;
 }
 
-.imgs {
+.pfps {
   width: 7rem;
   height: 7rem;
   border-width: 1rem;
