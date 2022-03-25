@@ -24,7 +24,7 @@ html,body{
   flex-flow: wrap;
   justify-content: space-evenly;
   height: 50vh;
-  margin-top: 30rem;
+  margin-top: 5rem;
 }
 
 #Activities {
@@ -32,7 +32,7 @@ html,body{
   flex-flow: wrap;
   justify-content: space-evenly;
   height: 50vh;
-  margin-top: 30rem;
+  margin-top: 5rem;
 }
 
 .imgs {
@@ -58,13 +58,14 @@ html,body{
 #header {
   margin-top: 4rem;
   height: 100vh;
+  padding: 60px;
   width: 95vw;
   margin-right: -2rem;
   margin-left: -2rem;
-  padding: 60px;
   background-image: url(images/banner.jpg);
   background-repeat: no-repeat;
   background-size: 102vw, 100vh;
+
 }
 
 .title {
@@ -74,7 +75,7 @@ html,body{
 }
 
 #heading {
-  height: 15vh;
+  height: 13vh;
   width: 100vw;
   margin-top: -10.5rem;
   background-color: cadetblue;
@@ -83,11 +84,12 @@ html,body{
 }
 
 .itm {
-  margin-top: -12rem;
-  margin-right: 4rem;
+  margin-top: -4rem;
+  margin-right: 5rem;
   margin-left: 12rem;
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+
 }
 
 a {
@@ -96,8 +98,8 @@ a {
   text-decoration: inherit;
 }
 
-.p {
-  margin-top: 10rem;
+#p {
+  margin-top: 7rem;
   text-align: center;
   align-items: center;
   font-size: 2rem;
@@ -114,8 +116,26 @@ a {
     background-color: rgb(227, 227, 252);
     border-width: 2px;
     border-color: rgb(255, 205, 143);
-
 }
+
+#f{
+  margin-top: 35rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Uncial Antiqua", cursive;
+}
+
+
+#A{
+  margin-top: 35rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Uncial Antiqua", cursive;
+}
+
+
+
+
 
 @media screen and (max-width: 700px) {
   .screen {
