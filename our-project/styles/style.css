@@ -3,10 +3,6 @@ html,body{
   max-width: 100vw;
 }
 
-
-
-
-
 .img {
   width: 25rem;
   height: 25rem;
@@ -71,10 +67,10 @@ html,body{
   background-size: 102vw, 100vh;
 }
 
-.title{
+.title {
   font-size: 3rem;
-  font-family:  'Uncial Antiqua', cursive;
-margin-left: 4rem;
+  font-family: "Uncial Antiqua", cursive;
+  margin-left: 4rem;
 }
 
 #heading {
@@ -84,36 +80,33 @@ margin-left: 4rem;
   background-color: cadetblue;
   margin-left: -3rem;
   margin-right: -2rem;
-
 }
 
-
-
-.itm{
+.itm {
   margin-top: -12rem;
   margin-right: 4rem;
   margin-left: 12rem;
   display: inline-block;
-  font-size: 1.5rem;}
+  font-size: 1.5rem;
+}
 
-
-a {text-decoration: none; 
+a {
+  text-decoration: none;
   color: inherit;
   text-decoration: inherit;
-
 }
 
-.p{  
+.p {
   margin-top: 10rem;
- text-align: center;
- align-items: center;
- font-size: 2rem;
- font-family: 'Uncial Antiqua', cursive;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Uncial Antiqua", cursive;
 }
 
-#b1, 
-#b2, 
-#b3{
+#b1,
+#b2,
+#b3 {
   margin-right: 20rem;
    margin-left: 17rem;
    margin-top: .5rem;
@@ -124,11 +117,8 @@ a {text-decoration: none;
 
 }
 
-
-
-@media screen and (max-width:700px){
-  .screen{
-      width: 50%;
+@media screen and (max-width: 700px) {
+  .screen {
+    width: 50%;
   }
 }
-
