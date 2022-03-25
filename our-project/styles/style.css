@@ -45,6 +45,11 @@ body {
   object-fit: cover;
   object-position: 20% 10%;
   border: 2px solid black;
+  transition: all 0.15s;
+}
+
+.img:hover {
+  transform: scale(1.07);
 }
 
 .pfps {
@@ -55,6 +60,11 @@ body {
   background-color: rgb(182, 205, 255);
   border-radius: 50%;
   margin-top: 30rem;
+  transition: all 0.15s;
+}
+
+.pfps:hover {
+  transform: scale(1.07);
 }
 
 .button {
