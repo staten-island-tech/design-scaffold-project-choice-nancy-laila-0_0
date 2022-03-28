@@ -45,10 +45,11 @@ html,body{
   margin-top: 30rem;
 }
 
-#Reviews {
+#Flights {
   justify-content: space-evenly;
   height: 50vh;
   margin: 10rem;
+  margin-top: -20rem;
   flex-direction: column;
   align-items: center;
   display: flex;
@@ -78,7 +79,7 @@ html,body{
   height: 13vh;
   width: 100vw;
   margin-top: -10.5rem;
-  background-color: cadetblue;
+  background-color: rgb(163, 178, 211);
   margin-left: -3rem;
   margin-right: -2rem;
 }
@@ -119,7 +120,7 @@ a {
 }
 
 #f{
-  margin-top: 35rem;
+  margin-top: 38rem;
   text-align: center;
   font-size: 2rem;
   font-family: "Uncial Antiqua", cursive;
@@ -133,12 +134,11 @@ a {
   font-family: "Uncial Antiqua", cursive;
 }
 
-
-
-
-
-@media screen and (max-width: 700px) {
-  .screen {
-    width: 50%;
-  }
+#Fl{
+  margin-top: 35rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Uncial Antiqua", cursive;
 }
+
+
