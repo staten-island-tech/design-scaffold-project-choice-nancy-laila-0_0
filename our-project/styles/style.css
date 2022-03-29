@@ -4,11 +4,13 @@ html,body{
 }
 
 .img {
-  width: 25rem;
-  height: 25rem;
-  margin: 2rem;
-  border-width: 1rem;
+  width: 15rem;
+  height: 15rem;
+  margin: 8rem;
+  border-width: 8rem;
+  margin-top: 2rem;
   padding: 5px 5px;
+  background-color: rgb(240, 240, 240);
 }
 
 #Countries {
@@ -16,7 +18,7 @@ html,body{
   flex-flow: wrap;
   justify-content: space-evenly;
   height: 50vh;
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 
 #Food {
@@ -141,4 +143,7 @@ a {
   font-family: "Uncial Antiqua", cursive;
 }
 
-
+.words{
+  text-align: center;
+  font-family: 'Lobster Two', cursive;
+}
