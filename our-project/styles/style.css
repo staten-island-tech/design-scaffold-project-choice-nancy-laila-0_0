@@ -109,17 +109,7 @@ a {
   font-family: "Uncial Antiqua", cursive;
 }
 
-#b1,
-#b2,
-#b3 {
-  margin-right: 20rem;
-   margin-left: 17rem;
-   margin-top: .5rem;
-   margin-bottom: .5rem;
-    background-color: rgb(227, 227, 252);
-    border-width: 2px;
-    border-color: rgb(255, 205, 143);
-}
+
 
 #f{
   margin-top: 38rem;
@@ -128,6 +118,17 @@ a {
   font-family: "Uncial Antiqua", cursive;
 }
 
+#C{
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Uncial Antiqua", cursive;
+}
+
+.sub{
+  text-align: center;
+  font-size: 1rem;
+}
 
 #A{
   margin-top: 35rem;
