@@ -26,7 +26,7 @@ html,body{
   flex-flow: wrap;
   justify-content: space-evenly;
   height: 50vh;
-  margin-top: 5rem;
+  margin-top: -1rem;
 }
 
 #Activities {
@@ -112,7 +112,7 @@ a {
 
 
 #f{
-  margin-top: 38rem;
+  margin-top: 25rem;
   text-align: center;
   font-size: 2rem;
   font-family: "Uncial Antiqua", cursive;
@@ -121,7 +121,7 @@ a {
 #C{
   margin-top: 5rem;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Uncial Antiqua", cursive;
 }
 
@@ -131,7 +131,7 @@ a {
 }
 
 #A{
-  margin-top: 35rem;
+  margin-top: 22rem;
   text-align: center;
   font-size: 2rem;
   font-family: "Uncial Antiqua", cursive;
@@ -147,4 +147,5 @@ a {
 .words{
   text-align: center;
   font-family: 'Lobster Two', cursive;
+  margin-bottom: -1rem;
 }
