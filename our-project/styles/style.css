@@ -1,5 +1,5 @@
 html,body{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(165, 164, 164);
   max-width: 100vw;
 }
 
@@ -137,8 +137,8 @@ a {
   font-family: "Uncial Antiqua", cursive;
 }
 
-#Fl{
-  margin-top: 35rem;
+#R{
+  margin-top: 30rem;
   text-align: center;
   font-size: 2rem;
   font-family: "Uncial Antiqua", cursive;
