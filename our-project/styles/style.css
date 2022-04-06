@@ -41,11 +41,11 @@ body {
 }
 
 .img {
-  width: 300px; /* width of container */
-  height: 300px; /* height of container */
+  width: 400px; /* width of container */
+  height: 480px; /* height of container */
   object-fit: cover;
   object-position: 20% 10%;
-  border: 2px solid black;
+  /*   border: 2px solid black; */
   transition: all 0.15s;
 }
 
@@ -94,32 +94,34 @@ body {
   margin-right: -2rem;
   margin-left: -2rem;
   padding: 60px;
-  background-image: url(images/banner.jpg);
+  background-image: url(images/Plane.jpg);
   background-repeat: no-repeat;
   background-size: 102vw, 100vh;
 }
 
 .title {
   font-size: 3rem;
-  font-family: "Uncial Antiqua", cursive;
+  /*   font-family: "Uncial Antiqua", cursive; */
   margin-left: 4rem;
+  color: aliceblue;
 }
 
 .heading {
   height: 15vh;
   width: 100vw;
   margin-top: -10.5rem;
-  background-color: cadetblue;
+  background-color: rgb(217, 206, 221);
   margin-left: -3rem;
   margin-right: -2rem;
 }
 
-.itm {
+.subheader {
   margin-top: -12rem;
   margin-right: 4rem;
   margin-left: 12rem;
   display: inline-block;
   font-size: 1.5rem;
+  color: aliceblue;
 }
 
 a {
@@ -133,7 +135,7 @@ a {
   text-align: center;
   align-items: center;
   font-size: 2rem;
-  font-family: "Uncial Antiqua", cursive;
+  /*   font-family: "Uncial Antiqua", cursive; */
 }
 
 #b1,
