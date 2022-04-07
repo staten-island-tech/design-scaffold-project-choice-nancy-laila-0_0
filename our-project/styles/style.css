@@ -103,14 +103,14 @@ body {
   font-size: 3rem;
   /*   font-family: "Uncial Antiqua", cursive; */
   margin-left: 4rem;
-  color: aliceblue;
+  color: rgb(8, 0, 31);
 }
 
 .heading {
   height: 15vh;
   width: 100vw;
   margin-top: -10.5rem;
-  background-color: rgb(180, 215, 226);
+  background-color: rgb(228, 220, 220);
   margin-left: -3rem;
   margin-right: -2rem;
 }
@@ -121,7 +121,7 @@ body {
   margin-left: 12rem;
   display: inline-block;
   font-size: 1.5rem;
-  color: aliceblue;
+  color: rgb(8, 0, 31);
 }
 
 a {
@@ -145,7 +145,7 @@ a {
   margin-left: 17rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  background-color: rgba(195, 195, 255, 0.658);
+  background-color: rgb(195, 195, 255, 0.658);
 }
 
 @media screen and (max-width: 700px) {
