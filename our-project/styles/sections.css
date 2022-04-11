@@ -1,0 +1,33 @@
+#Countries {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  height: 5vh;
+  margin-top: 7rem;
+}
+
+#Food {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  height: 5vh;
+  margin-top: 30rem;
+}
+
+#Activities {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  height: 5vh;
+  margin-top: 30rem;
+}
+
+#Reviews {
+  justify-content: space-evenly;
+  height: 5vh;
+  margin: 10rem;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex-flow: wrap;
+}
