@@ -125,10 +125,7 @@ a {
   font-family: "Uncial Antiqua", cursive;
 }
 
-.sub{
-  text-align: center;
-  font-size: 1rem;
-}
+
 
 #A{
   margin-top: 22rem;
@@ -148,4 +145,14 @@ a {
   text-align: center;
   font-family: 'Lobster Two', cursive;
   margin-bottom: -1rem;
+  text-decoration: underline;
+}
+
+.cold1{
+  font-size: 1rem;
+margin-left: 390px;
+  margin-top: 4rem;
+  margin-bottom: -10rem;
+
+
 }
