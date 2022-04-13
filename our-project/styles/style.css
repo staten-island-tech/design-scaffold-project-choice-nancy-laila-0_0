@@ -47,6 +47,10 @@ body {
   margin-right: -2rem;
 }
 
+.preference {
+  margin: auto 20px;
+}
+
 .img {
   width: 400px; /* width of container */
   height: 480px; /* height of container */
