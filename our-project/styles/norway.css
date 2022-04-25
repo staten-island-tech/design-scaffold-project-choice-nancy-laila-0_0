@@ -1,6 +1,6 @@
 .northernlights {
-  width: 400px; /* width of container */
-  height: 480px; /* height of container */
+  width: 1200px; /* width of container */
+  height: 800px; /* height of container */
   object-fit: cover;
   object-position: 20% 10%;
 }
