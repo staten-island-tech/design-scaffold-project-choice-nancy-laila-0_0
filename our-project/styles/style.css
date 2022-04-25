@@ -1,4 +1,8 @@
 @import url(sections.css);
+@import url(norway.css);
+@import url(africa.css);
+@import url(egypt.css);
+@import url(mexico.css);
 
 html,
 body {
