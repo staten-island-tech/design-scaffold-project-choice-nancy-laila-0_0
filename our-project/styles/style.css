@@ -37,15 +37,6 @@ html,body{
   margin-top: 5rem;
 }
 
-.imgs {
-  width: 7rem;
-  height: 7rem;
-  border-width: 1rem;
-  padding: 5px 5px;
-  background-color: rgb(182, 205, 255);
-  border-radius: 50%;
-  margin-top: 30rem;
-}
 
 #S {
   display: flex;
@@ -173,4 +164,25 @@ margin-left: 390px;
   margin-left: 390px;
     margin-top: 4rem;
     margin-bottom: -10rem;
+}
+
+.f1{
+  width: 15rem;
+  height: 15rem;
+  margin: 8rem;
+  border-width: 8rem;
+  margin-top: 2rem;
+  margin-left: 20rem;
+  padding: 5px 5px;
+  background-color: rgb(240, 240, 240);
+}
+
+.a1{
+  width: 15rem;
+  height: 15rem;
+  margin: 8rem;
+  border-width: 8rem;
+  margin-top: 2rem;
+  padding: 5px 5px;
+  background-color: rgb(240, 240, 240);
 }
