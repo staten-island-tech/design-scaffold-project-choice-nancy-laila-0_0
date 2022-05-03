@@ -67,26 +67,19 @@ html,body{
   height: 18vh;
   width: 100vw;
   margin-top: -10.5rem;
-  background-color: rgb(163, 178, 211);
+  background-color: rgb(188, 207, 233);
   margin-left: -3rem;
   margin-right: -2rem;
   position: fixed;
 }
 
 .itm {
-<<<<<<< Updated upstream
   margin-top: -12rem;
   margin-right: 4rem;
   margin-left: 12rem;
   display: inline-block;
   font-size: 1.5rem;
   color: rgb(8, 0, 31);
-=======
-  margin-right: 5rem;
-  margin-left: 12rem;
-  display: inline-block;
-  font-size: 1.2rem;
->>>>>>> Stashed changes
 
 }
 
@@ -185,6 +178,48 @@ margin-left: 390px;
 }
 
 .a1{
+  width: 15rem;
+  height: 15rem;
+  margin: 8rem;
+  border-width: 8rem;
+  margin-top: 2rem;
+  padding: 5px 5px;
+  background-color: rgb(240, 240, 240);
+}
+
+.f2{
+  width: 15rem;
+  height: 15rem;
+  margin: 8rem;
+  border-width: 8rem;
+  margin-top: 2rem;
+  padding: 5px 5px;
+  margin-left: 20rem;
+  background-color: rgb(240, 240, 240);
+}
+
+.a2{
+  width: 15rem;
+  height: 15rem;
+  margin: 8rem;
+  border-width: 8rem;
+  margin-top: 2rem;
+  padding: 5px 5px;
+  background-color: rgb(240, 240, 240);
+}
+
+.f3{
+  width: 15rem;
+  height: 15rem;
+  margin: 8rem;
+  border-width: 8rem;
+  margin-top: 2rem;
+  margin-left: 20rem;
+  padding: 5px 5px;
+  background-color: rgb(240, 240, 240);
+}
+
+.a3{
   width: 15rem;
   height: 15rem;
   margin: 8rem;
