@@ -50,7 +50,7 @@ html,body{
   width: 95vw;
   margin-right: -2rem;
   margin-left: -2rem;
-  background-image: url(images/banner.jpg);
+  background-image: url(images/bck.jpg);
   background-repeat: no-repeat;
   background-size: 102vw, 100vh;
   
@@ -64,7 +64,7 @@ html,body{
 }
 
 #heading {
-  height: 18vh;
+  height: 17vh;
   width: 100vw;
   margin-top: -10.5rem;
   background-color: rgb(188, 207, 233);
@@ -74,11 +74,11 @@ html,body{
 }
 
 .itm {
-  margin-top: -12rem;
   margin-right: 4rem;
+  margin-top: -30.5rem;
   margin-left: 12rem;
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: rgb(8, 0, 31);
 
 }
@@ -130,7 +130,6 @@ a {
 }
 
 .words{
-  text-align: center;
   font-family: 'Lobster Two', cursive;
   margin-bottom: -1rem;
   text-decoration: underline;
@@ -220,6 +219,27 @@ margin-left: 390px;
 }
 
 .a3{
+  width: 15rem;
+  height: 15rem;
+  margin: 8rem;
+  border-width: 8rem;
+  margin-top: 2rem;
+  padding: 5px 5px;
+  background-color: rgb(240, 240, 240);
+}
+
+.f4{
+  width: 15rem;
+  height: 15rem;
+  margin: 8rem;
+  border-width: 8rem;
+  margin-top: 2rem;
+  margin-left: 20rem;
+  padding: 5px 5px;
+  background-color: rgb(240, 240, 240);
+}
+
+.a4{
   width: 15rem;
   height: 15rem;
   margin: 8rem;
