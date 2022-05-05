@@ -1,5 +1,5 @@
 html,body{
-  background-image: linear-gradient(rgb(205, 212, 241), rgb(206, 176, 162));
+
   max-width: 100vw;
 }
 
@@ -13,72 +13,34 @@ html,body{
   background-color: rgb(240, 240, 240);
 }
 
-#N {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-evenly;
-  height: 50vh;
-}
-
-#E {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-evenly;
-  height: 50vh;
-}
-
-#D {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-evenly;
-  height: 50vh;
-
-}
-
-
-#S {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-evenly;
-  height: 50vh;
-}
-
-#header {
-  margin-top: 4rem;
+#header{
+  margin-top: -4rem;
   height: 100vh;
   padding: 60px;
   width: 95vw;
   margin-right: -2rem;
   margin-left: -2rem;
-  background-image: url(images/bck.jpg);
+  background-image:url(images/bck2.avif);
   background-repeat: no-repeat;
   background-size: 102vw, 100vh;
-  
-
+  top:0;
 }
 
-.title {
-  font-size: 3rem;
-  font-family: "Uncial Antiqua", cursive;
-  margin-left: 4rem;
-}
-
-#heading {
+#heading{
   height: 17vh;
   width: 100vw;
-  margin-top: -10.5rem;
-  background-color: rgb(188, 207, 233);
-  margin-left: -3rem;
-  margin-right: -2rem;
+  background-color: rgb(233, 214, 188);
+  left:0;
   position: fixed;
+  top: 0;
 }
 
 .itm {
+
   margin-right: 4rem;
-  margin-top: -30.5rem;
   margin-left: 12rem;
   display: inline-block;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: rgb(8, 0, 31);
 
 }
@@ -89,162 +51,8 @@ a {
   text-decoration: inherit;
 }
 
-#p {
-  margin-top: 7rem;
-  text-align: center;
-  align-items: center;
-  font-size: 2rem;
-  font-family: "Uncial Antiqua", cursive;
-}
-
-
-
-#f{
-  margin-top: 25rem;
-  text-align: center;
-  font-size: 2rem;
-  font-family: "Uncial Antiqua", cursive;
-}
-
-#C{
-  margin-top: 5rem;
-  text-align: center;
+.title{
   font-size: 3rem;
   font-family: "Uncial Antiqua", cursive;
-}
-
-
-
-#A{
-  margin-top: 22rem;
-  text-align: center;
-  font-size: 2rem;
-  font-family: "Uncial Antiqua", cursive;
-}
-
-#R{
-  margin-top: 30rem;
-  text-align: center;
-  font-size: 2rem;
-  font-family: "Uncial Antiqua", cursive;
-}
-
-.words{
-  font-family: 'Lobster Two', cursive;
-  margin-bottom: -1rem;
-  text-decoration: underline;
-}
-
-.cold1{
-  font-size: 1rem;
-margin-left: 390px;
-  margin-top: 4rem;
-  margin-bottom: -10rem;
-
-
-}
-
-.hot1{
-  font-size: 1rem;
-  margin-left: 390px;
-    margin-top: 4rem;
-    margin-bottom: -10rem;
-}
-
-.cold2{
-  font-size: 1rem;
-  margin-left: 390px;
-    margin-top: 4rem;
-    margin-bottom: -10rem;
-}
-
-.hot2{
-  font-size: 1rem;
-  margin-left: 390px;
-    margin-top: 4rem;
-    margin-bottom: -10rem;
-}
-
-.f1{
-  width: 15rem;
-  height: 15rem;
-  margin: 8rem;
-  border-width: 8rem;
-  margin-top: 2rem;
-  margin-left: 20rem;
-  padding: 5px 5px;
-  background-color: rgb(240, 240, 240);
-}
-
-.a1{
-  width: 15rem;
-  height: 15rem;
-  margin: 8rem;
-  border-width: 8rem;
-  margin-top: 2rem;
-  padding: 5px 5px;
-  background-color: rgb(240, 240, 240);
-}
-
-.f2{
-  width: 15rem;
-  height: 15rem;
-  margin: 8rem;
-  border-width: 8rem;
-  margin-top: 2rem;
-  padding: 5px 5px;
-  margin-left: 20rem;
-  background-color: rgb(240, 240, 240);
-}
-
-.a2{
-  width: 15rem;
-  height: 15rem;
-  margin: 8rem;
-  border-width: 8rem;
-  margin-top: 2rem;
-  padding: 5px 5px;
-  background-color: rgb(240, 240, 240);
-}
-
-.f3{
-  width: 15rem;
-  height: 15rem;
-  margin: 8rem;
-  border-width: 8rem;
-  margin-top: 2rem;
-  margin-left: 20rem;
-  padding: 5px 5px;
-  background-color: rgb(240, 240, 240);
-}
-
-.a3{
-  width: 15rem;
-  height: 15rem;
-  margin: 8rem;
-  border-width: 8rem;
-  margin-top: 2rem;
-  padding: 5px 5px;
-  background-color: rgb(240, 240, 240);
-}
-
-.f4{
-  width: 15rem;
-  height: 15rem;
-  margin: 8rem;
-  border-width: 8rem;
-  margin-top: 2rem;
-  margin-left: 20rem;
-  padding: 5px 5px;
-  background-color: rgb(240, 240, 240);
-}
-
-.a4{
-  width: 15rem;
-  height: 15rem;
-  margin: 8rem;
-  border-width: 8rem;
-  margin-top: 2rem;
-  padding: 5px 5px;
-  background-color: rgb(240, 240, 240);
+text-align: center;
 }
