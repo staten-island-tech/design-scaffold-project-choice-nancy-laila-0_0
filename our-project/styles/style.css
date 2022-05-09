@@ -14,7 +14,6 @@ html,body{
 }
 
 #header{
-  margin-top: -4rem;
   height: 100vh;
   padding: 60px;
   width: 95vw;
@@ -27,7 +26,7 @@ html,body{
 }
 
 #heading{
-  height: 17vh;
+  height: 10vh;
   width: 100vw;
   background-color: rgb(233, 214, 188);
   left:0;
@@ -42,7 +41,11 @@ html,body{
   display: inline-block;
   font-size: 1rem;
   color: rgb(8, 0, 31);
+ font-weight: 300;
+}
 
+.sections{
+  margin-top: -2rem;
 }
 
 a {
@@ -55,4 +58,45 @@ a {
   font-size: 3rem;
   font-family: "Uncial Antiqua", cursive;
 text-align: center;
+margin-top: -.3rem;
+}
+
+#type{
+  font-size: 3rem;
+  font-family: "Uncial Antiqua", cursive;
+  text-align: center;
+}
+
+.direct{
+  text-align: center;
+  font-family: "Uncial Antiqua", cursive;
+  font-size: 1.2rem;
+  margin-top: -2rem;
+}
+
+.info{
+  text-align: center;
+  font-size: 1rem;
+}
+
+.flag{
+  width: 15rem;
+  height: 15rem;
+  margin: 8rem;
+  border-width: 8rem;
+  margin-top: 2rem;
+  padding: 5px 5px;
+  background-color: rgb(240, 240, 240);
+
+}
+
+.food{
+  width: 7rem;
+  height: 7rem;
+  margin: 8rem;
+  border-width: 8rem;
+  margin-top: 2rem;
+  padding: 5px 5px;
+  background-color: rgb(240, 240, 240);
+
 }
