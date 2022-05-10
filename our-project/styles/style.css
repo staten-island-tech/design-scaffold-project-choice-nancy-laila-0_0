@@ -62,7 +62,7 @@ a {
   margin-top: -0.3rem;
 }
 
-#type {
+.sectionName {
   font-size: 3rem;
   font-family: "Uncial Antiqua", cursive;
   text-align: center;
