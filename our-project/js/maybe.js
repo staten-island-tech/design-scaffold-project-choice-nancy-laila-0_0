@@ -1,36 +1,33 @@
+const countries = [
+  {
+    Name: "Norway",
+    Cold: true,
+  },
 
-const countries=[
+  {
+    Name: "Denmark",
+    Cold: true,
+  },
 
-{
-Name: "Norway", 
-Cold: true
-},
+  {
+    Name: "Canada",
+    Cold: true,
+  },
 
-{
-Name: "Denmark",
-Cold: true
-},
+  {
+    Name: "South Africa",
+    Cold: false,
+  },
 
-{
-Name: "Canada",
-Cold: true   
-},
+  {
+    Name: "Egypt",
+    Cold: false,
+  },
 
-{
-Name: "South Africa",
-Cold: false
-},
-
-{
-Name: "Egypt",
-Cold: false
-},
-
-{
-Name: "Mexico",
-Cold: false
-}
-
+  {
+    Name: "Mexico",
+    Cold: false,
+  },
 ];
 
-export{countries};
+export { countries };
