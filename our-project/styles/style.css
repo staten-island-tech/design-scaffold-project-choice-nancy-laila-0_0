@@ -21,7 +21,7 @@ body {
   width: 95vw;
   margin-right: -2rem;
   margin-left: -2rem;
-  background-image: url(images/bck2.avif);
+  background-image: url(images/Background.jpg);
   background-repeat: no-repeat;
   background-size: 102vw, 100vh;
   top: 0;
@@ -30,7 +30,7 @@ body {
 #heading {
   height: 10vh;
   width: 100vw;
-  background-color: rgb(233, 214, 188);
+  background-color: rgb(146, 193, 255);
   left: 0;
   position: fixed;
   top: 0;
@@ -46,7 +46,8 @@ body {
 }
 
 .sections {
-  margin-top: -2rem;
+  margin-top: -1rem;
+  font-family: 'Kaushan Script', cursive;
 }
 
 a {
@@ -56,46 +57,20 @@ a {
 }
 
 .title {
+  font-size: 2rem;
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.Region{
   font-size: 3rem;
-  font-family: "Uncial Antiqua", cursive;
+  font-family: 'Satisfy', cursive;
   text-align: center;
-  margin-top: -0.3rem;
+  margin: 3rem;
 }
 
-.sectionName {
-  font-size: 3rem;
-  font-family: "Uncial Antiqua", cursive;
-  text-align: center;
-}
 
-.direct {
-  text-align: center;
-  font-family: "Uncial Antiqua", cursive;
-  font-size: 1.2rem;
-  margin-top: -2rem;
-}
 
-.info {
-  text-align: center;
-  font-size: 1rem;
-}
 
-.flag {
-  width: 15rem;
-  height: 15rem;
-  margin: 8rem;
-  border-width: 8rem;
-  margin-top: 2rem;
-  padding: 5px 5px;
-  background-color: rgb(240, 240, 240);
-}
 
-.food {
-  width: 7rem;
-  height: 7rem;
-  margin: 8rem;
-  border-width: 8rem;
-  margin-top: 2rem;
-  padding: 5px 5px;
-  background-color: rgb(240, 240, 240);
-}
