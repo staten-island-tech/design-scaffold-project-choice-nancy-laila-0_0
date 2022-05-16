@@ -10,6 +10,7 @@ body {
   width: 20rem;
   height: 20rem;
   margin: 8rem;
+  margin-right: 2rem;
   border-width: 8rem;
   margin-top: 2rem;
   padding: 5px 5px;
@@ -70,4 +71,18 @@ a {
   font-family: 'Satisfy', cursive;
   text-align: center;
   margin: 3rem;
+}
+
+.words{
+margin-top: -15rem;
+text-align: center;
+font-size: 2rem;
+}
+
+
+#flag{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -1rem;
 }
