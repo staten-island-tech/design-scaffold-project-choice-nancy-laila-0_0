@@ -81,7 +81,7 @@ a {
   margin-top: -1rem;
 }
 
-.cw{
+.cw1{
   font-size: 2rem;
 margin-left: 470px;
   margin-top: -410px;
@@ -97,7 +97,8 @@ margin-left: 470px;
 
 #PokeTitle{
   margin-bottom: -11rem;
-  margin-left: 470px;
+  margin-right: 400px;
+  margin-left: 45px;
   font-family: 'Lobster Two', cursive;
 }
 
@@ -106,8 +107,18 @@ margin-left: 470px;
 }
 
 #Poke{
-margin-top: 10rem;
-margin-left: 720px;
+  margin-top: 10rem;
 }
 
+#P{
+  margin-left: 750px;
+}
+
+.cw2{
+  font-size: 2rem;
+margin-right: 400px;
+margin-left: 45px;
+  margin-top: -410px;
+  font-family: 'Philosopher', sans-serif;
+}
 
