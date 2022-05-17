@@ -13,7 +13,6 @@ html,
   margin: 8rem;
   margin-right: 2rem;
   border-width: 8rem;
-  margin-top: 2rem;
   padding: 5px 5px;
   background-color: rgb(240, 240, 240);
 }
@@ -71,6 +70,7 @@ a {
   font-family: 'Satisfy', cursive;
   text-align: center;
   margin: 3rem;
+ text-decoration: underline;
 }
 
 
@@ -80,4 +80,34 @@ a {
   margin-right: auto;
   margin-top: -1rem;
 }
+
+.cw{
+  font-size: 2rem;
+margin-left: 470px;
+  margin-top: -410px;
+  font-family: 'Philosopher', sans-serif;
+
+}
+
+#RiceTitle{
+  margin-bottom: -11rem;
+  margin-left: 470px;
+  font-family: 'Lobster Two', cursive;
+}
+
+#PokeTitle{
+  margin-bottom: -11rem;
+  margin-left: 470px;
+  font-family: 'Lobster Two', cursive;
+}
+
+#Rice{
+  margin-left: 30px;
+}
+
+#Poke{
+margin-top: 10rem;
+margin-left: 720px;
+}
+
 
