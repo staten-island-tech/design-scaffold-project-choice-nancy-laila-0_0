@@ -11,8 +11,10 @@ html,
 .img {
   width: 20rem;
   height: 20rem;
-  margin: 8rem;
-  margin-right: 2rem;
+  margin:8rem;
+display: flex;
+margin-left:10rem;
+margin-right: 20rem;
   border-width: 8rem;
   padding: 5px 5px;
   background-color: rgb(240, 240, 240);
@@ -38,6 +40,11 @@ html,
   top: 0;
 }
 
+.sections {
+  margin-top: -1rem;
+  font-family: 'Kaushan Script', cursive;
+}
+
 .subheader {
   margin-right: 4rem;
   margin-left: 12rem;
@@ -47,10 +54,6 @@ html,
   font-weight: 300;
 }
 
-.sections {
-  margin-top: -1rem;
-  font-family: 'Kaushan Script', cursive;
-}
 
 a {
   text-decoration: none;
@@ -74,52 +77,32 @@ a {
  text-decoration: underline;
 }
 
-
-.cw1{
-  font-size: 2rem;
-margin-left: 470px;
-  margin-top: -410px;
-  font-family: 'Philosopher', sans-serif;
-
+.Hawaii{
+  display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
 }
 
-#RiceTitle{
-  margin-bottom: -11rem;
-  margin-left: 470px;
-  font-family: 'Lobster Two', cursive;
+.Fiji{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
 }
 
-#PokeTitle{
-  margin-bottom: -11rem;
-  margin-right: 400px;
-  margin-left: 45px;
-  font-family: 'Lobster Two', cursive;
+.Phillipines{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-block-end: 50px;
+  flex-wrap: wrap;
 }
 
-#Rice{
-  margin-left: 30px;
-}
-
-#Poke{
-  margin-top: 10rem;
-}
-
-#P{
-  margin-left: 750px;
-}
-
-.cw2{
-  font-size: 2rem;
-margin-right: 400px;
-margin-left: 45px;
-  margin-top: -410px;
-  font-family: 'Philosopher', sans-serif;
-}
-
-.cw3{
-  margin-top: -480px;
-  font-size: 2rem;
-margin-left: 470px;
-  font-family: 'Philosopher', sans-serif;
-
+.Palau{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-block-end: 50px;
+  flex-wrap: wrap;
 }
