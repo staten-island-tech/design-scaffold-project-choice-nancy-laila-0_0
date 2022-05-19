@@ -3,18 +3,19 @@ html,
   body {
     padding: 0%;
     margin: 0%;
-    background: rgb(179, 179, 238);
+    background: rgb(214, 239, 245);
   }
 
 
 .img {
   width: 20rem;
   height: 20rem;
-  margin:8rem;
+  margin: 5rem;
 display: flex;
   border-width: 8rem;
   padding: 5px 5px;
   background-color: rgb(240, 240, 240);
+  object-fit: cover;
 }
 
 #header {
@@ -67,31 +68,44 @@ a {
 }
 
 .country{
+  margin-top: 4rem;
   font-size: 3rem;
   font-family: 'Satisfy', cursive;
   text-align: center;
  text-decoration: underline;
 }
 
-#Hawaii{
+#Hawaiian-food{
   display: flex;
   justify-content: space-evenly;
-  margin-top: 5rem;
+  margin-top: -2rem;
   flex-wrap: wrap;
   flex-direction: row;
 }
-
+.food-card{
+  width: 22% ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 40rem;
+}
+@media screen and (max-width:900px){
+  .food-card{
+    width: 45%;
+  }
+}
 #Fiji{
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: -2rem;
   flex-wrap: wrap;
 }
 
-#Phillipines{
+#Philippines{
   display: flex;
   justify-content: space-around;
-  margin-top: 5rem;
+  margin-top: -2rem;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -99,7 +113,22 @@ a {
 #Palau{
   display: flex;
   justify-content: space-around;
-  margin-top: 5rem;
+  margin-top: -2rem;
   flex-wrap: wrap;
   flex-direction: row;
+}
+
+.text{
+  text-align: center;
+  margin-top: -4rem;
+  font-size: 1rem;
+  font-family: 'Lobster', cursive;
+}
+
+.food{
+ 
+       font-size: 18px;
+       text-align: center;
+       font-size: 2rem;
+       font-family: 'Lobster Two', cursive;
 }
