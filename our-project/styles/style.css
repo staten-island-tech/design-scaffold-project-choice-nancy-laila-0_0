@@ -1,3 +1,9 @@
+@import url(sections.css);
+@import url(fiji.css);
+@import url(hawaii.css);
+@import url(sections.css);
+@import url(solomon.css);
+
 html, 
   body {
     padding: 0%;
@@ -10,7 +16,7 @@ html,
   width: 20rem;
   height: 20rem;
   margin: 5rem;
-display: flex;
+  display: flex;
   border-width: 8rem;
   padding: 5px 5px;
   background-color: rgb(240, 240, 240);
