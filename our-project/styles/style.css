@@ -7,6 +7,93 @@ html,
   }
 
 
+  .container{
+    width:100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right:8%;
+    box-sizing: border-box;
+  }
+
+  .navbar{
+    overflow: hidden;
+  }
+
+
+  .menu div{
+  width:30px;
+  height: 3px;
+  cursor: pointer;
+  margin: 5px;
+  background-color: white;
+  }
+
+  .menu{
+    display:none;
+  }
+
+
+
+
+nav{
+  min-height:8vh;
+  background-color: darkcyan;
+  display:flex ;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  width: 100px;
+  font-size: 15px;
+  color:rgb(102, 212, 176);
+}
+
+nav ul li a:hover{
+  color:black
+
+}
+
+.row{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 100px 0;
+}
+
+.col-1{
+flex-basis: 40%;
+position: relative;
+margin-left: 50px;
+}
+
+.col-1 h2{
+  font-size: 55px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.col-1::after{
+content: '';
+width:12px;
+height:57%;
+background: linear-gradient(rgb(122, 240, 122), rgb(138, 225, 252));
+position: absolute;
+left:-40px;
+top:8px;
+}
+
+@media screen and (max-width:768px){
+
+}
+
+
 .img {
   width: 20rem;
   height: 20rem;
@@ -18,54 +105,7 @@ display: flex;
   object-fit: cover;
 }
 
-#header {
-  height: 100vh;
-  padding: 60px;
-  margin-right: -2rem;
-  margin-left: -2rem;
-  background-image: url(images/Background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  top: 0;
-}
 
-#heading {
-  height: 10vh;
-  width: 100vw;
-  background-color: rgb(146, 193, 255);
-  left: 0;
-  position: fixed;
-  top: 0;
-}
-
-.sections {
-  margin-top: -1rem;
-  font-family: 'Lato', sans-serif;
-}
-
-.subheader {
-  margin-right: 4rem;
-  margin-left: 12rem;
-  display: inline-block;
-  font-size: 1rem;
-  color: rgb(8, 0, 31);
-  font-weight: 300;
-}
-
-
-a {
-  text-decoration: none;
-  color: inherit;
-  text-decoration: inherit;
-}
-
-.title {
-  font-size: 2rem;
-  font-family: 'Satisfy', cursive;
-  text-align: center;
-  margin-top: 0.5rem;
-  text-decoration: underline;
-}
 
 #Hawaii{
   display: flex;
@@ -80,6 +120,7 @@ height:70vh;
 margin: 10px;
 border-radius: 17px;
   padding: 10px;
+  box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
 }
 
 .Card-img{
@@ -130,6 +171,7 @@ height:70vh;
 margin: 10px;
 border-radius: 17px;
   padding: 10px;
+  box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
 }
 
 .Card-img2{
@@ -152,6 +194,7 @@ height:70vh;
 margin: 10px;
 border-radius: 17px;
   padding: 10px;
+  box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
 }
 
 .Card-img3{
@@ -174,6 +217,7 @@ height:70vh;
 margin: 10px;
 border-radius: 17px;
   padding: 10px;
+  box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
 }
 
 .Card-img4{
@@ -182,4 +226,7 @@ border-radius: 17px;
 background-size: cover;
   padding: 12px;
 }
+
+
+
 
