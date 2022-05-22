@@ -3,7 +3,7 @@ html,
   body {
     padding: 0%;
     margin: 0%;
-    background: rgb(214, 239, 245);
+    background: rgb(255, 255, 255);
   }
 
 
@@ -40,7 +40,7 @@ display: flex;
 
 .sections {
   margin-top: -1rem;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Lato', sans-serif;
 }
 
 .subheader {
@@ -67,68 +67,119 @@ a {
   text-decoration: underline;
 }
 
-.country{
-  margin-top: 4rem;
-  font-size: 3rem;
-  font-family: 'Satisfy', cursive;
-  text-align: center;
- text-decoration: underline;
+#Hawaii{
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
 }
 
-#Hawaiian-food{
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: -2rem;
-  flex-wrap: wrap;
-  flex-direction: row;
+.card1{
+  background-color: rgb(131, 231, 131);
+width:27%;
+height:70vh;
+margin: 10px;
+border-radius: 17px;
+  padding: 10px;
 }
-.food-card{
-  width: 22% ;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  height: 40rem;
+
+.Card-img{
+  background-image: url(images/bck.jpg);
+  border-radius: 5px;
+background-size: cover;
+  padding: 12px;
 }
-@media screen and (max-width:900px){
-  .food-card{
-    width: 45%;
-  }
+
+
+.img1{
+  height: 15rem;
+  width: 15rem;
+  margin: auto;
+  display: block;
 }
+
+.foodtitle{
+  font-size: 1.5rem;
+  font-family: 'Lobster Two', cursive;
+}
+
+.info{
+margin-top: -0.9rem;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.Title1{
+  font-size: 3rem;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: -3rem;
+  font-family: 'Lobster Two', cursive;
+  text-decoration: underline;
+}
+
 #Fiji{
   display: flex;
-  justify-content: space-around;
-  margin-top: -2rem;
-  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.card2{
+  background-color: rgb(113, 168, 113);
+width:27%;
+height:70vh;
+margin: 10px;
+border-radius: 17px;
+  padding: 10px;
+}
+
+.Card-img2{
+  background-image: url(images/bck.jpg);
+  border-radius: 5px;
+background-size: cover;
+  padding: 12px;
 }
 
 #Philippines{
   display: flex;
-  justify-content: space-around;
-  margin-top: -2rem;
-  flex-wrap: wrap;
-  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.card3{
+  background-color: rgb(125, 221, 125);
+width:27%;
+height:70vh;
+margin: 10px;
+border-radius: 17px;
+  padding: 10px;
+}
+
+.Card-img3{
+  background-image: url(images/bck.jpg);
+  border-radius: 5px;
+background-size: cover;
+  padding: 12px;
 }
 
 #Palau{
   display: flex;
-  justify-content: space-around;
-  margin-top: -2rem;
-  flex-wrap: wrap;
-  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
 }
 
-.text{
-  text-align: center;
-  margin-top: -4rem;
-  font-size: 1rem;
-  font-family: 'Lobster', cursive;
+.card4{
+  background-color: rgb(113, 168, 113);
+width:27%;
+height:70vh;
+margin: 10px;
+border-radius: 17px;
+  padding: 10px;
 }
 
-.food{
- 
-       font-size: 18px;
-       text-align: center;
-       font-size: 2rem;
-       font-family: 'Lobster Two', cursive;
+.Card-img4{
+  background-image: url(images/bck.jpg);
+  border-radius: 5px;
+background-size: cover;
+  padding: 12px;
 }
+
