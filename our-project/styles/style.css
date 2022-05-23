@@ -2,7 +2,7 @@ html,
 body {
   padding: 0%;
   margin: 0%;
-  background: #99cea9e7;
+  background: #ffffffe7;
   flex-direction: column;
 }
 
@@ -17,10 +17,7 @@ body {
   --secondary: var(--dark-green);
 }
 
-.green {
-  background-color: var(--dark-green);
-  --card-color: var(#83e783);
-}
+
 
 .container {
   width: 100%;
@@ -64,11 +61,12 @@ nav ul li a {
   text-decoration: none;
   width: 100px;
   font-size: 15px;
-  color: rgb(102, 212, 176);
+  color: rgb(255, 255, 255);
+  font-family: 'Lato', sans-serif;
 }
 
 nav ul li a:hover {
-  color: black;
+  color: rgb(23, 131, 255);
 }
 
 .row {
@@ -184,12 +182,9 @@ nav ul li a:hover {
   padding: 12px;
 }
 
-<<<<<<< HEAD
+
 #Samoa{
-=======
-#Philippines {
->>>>>>> 3ef05af20ab287e3915cac94d1543028427661b6
-  display: flex;
+display: flex;
   justify-content: center;
   margin-top: 5rem;
 }
@@ -240,7 +235,13 @@ nav ul li a:hover {
   .card3,
   .card4 {
     width: 47%;
+    font-size: 1.5rem;
+    flex-direction: column;
   }
+.img1{
+  width:10rem;
+  height:10rem;
+}
 }
 
 @media screen and (min-width: 540px) {
@@ -248,6 +249,7 @@ nav ul li a:hover {
   .card2,
   .card3,
   .card4 {
-    width: 25%;
+    width: 35%;
+    flex-direction: column;
   }
 }
