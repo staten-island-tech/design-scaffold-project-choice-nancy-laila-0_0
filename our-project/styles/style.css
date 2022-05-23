@@ -3,8 +3,32 @@ html,
   body {
     padding: 0%;
     margin: 0%;
-    background: rgb(255, 255, 255);
+    background: #99cea9e7;
+    flex-direction: column;
   }
+
+
+:root{
+    --black: #000; 
+    --light-green: #83e783;
+    --light-blue:#98b2da;
+    --dark-blue:#505b9c;
+    --dark-green: #97b8a1e7;
+
+  --primary: var(--light-green);
+  --secondary: var(--dark-green);
+  
+  }
+  
+.green{
+background-color: var(--dark-green);
+--card-color: var(#83e783);
+
+}
+
+
+
+
 
 
   .container{
@@ -15,8 +39,9 @@ html,
     box-sizing: border-box;
   }
 
-  .navbar{
+  #navbar{
     overflow: hidden;
+    
   }
 
 
@@ -89,10 +114,6 @@ left:-40px;
 top:8px;
 }
 
-@media screen and (max-width:768px){
-
-}
-
 
 .img {
   width: 20rem;
@@ -145,7 +166,7 @@ background-size: cover;
 
 .info{
 margin-top: -0.9rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-family: 'Lato', sans-serif;
 }
 
@@ -156,6 +177,7 @@ margin-top: -0.9rem;
   margin-bottom: -3rem;
   font-family: 'Lobster Two', cursive;
   text-decoration: underline;
+  margin-top: 15rem;
 }
 
 #Fiji{
@@ -165,7 +187,7 @@ margin-top: -0.9rem;
 }
 
 .card2{
-  background-color: rgb(113, 168, 113);
+  background-color:  rgb(131, 231, 131);
 width:27%;
 height:70vh;
 margin: 10px;
@@ -211,7 +233,7 @@ background-size: cover;
 }
 
 .card4{
-  background-color: rgb(113, 168, 113);
+  background-color:  rgb(131, 231, 131);
 width:27%;
 height:70vh;
 margin: 10px;
@@ -226,7 +248,3 @@ border-radius: 17px;
 background-size: cover;
   padding: 12px;
 }
-
-
-
-
