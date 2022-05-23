@@ -1,0 +1,5 @@
+
+        window.$mediavine = window.$mediavine || {};
+        window.$mediavine.web = window.$mediavine.web || {};
+        window.$mediavine.web.keywords = {"status":"PROCESSED","sales_kw":"coconut milk,recipe,rice,coconut cream,minutes,bananas,onions,sugar,taro,banana,baked dish,soy sauce,garlic,sweetness,coconut caramel bread","sales_cat":"210,217,216,214,211","sales_safety":"GGT0"};
+      
