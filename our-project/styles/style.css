@@ -45,7 +45,7 @@ body {
 
 nav {
   min-height: 8vh;
-  background-color: darkcyan;
+  background-color: rgb(72, 151, 151);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -66,8 +66,34 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: rgb(23, 131, 255);
+  color: rgb(159, 198, 243);
 }
+
+.img1:hover{
+  -webkit-transform: scale(0.9);
+	transform: scale(0.9);
+  transition: 0.3s ease-out;
+}
+
+.img2:hover{
+  -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.img3:hover{
+  transform: rotate(20deg) scale(1.1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.img4:hover{
+  transform: rotate(-20deg) scale(0.85);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
 
 .row {
   display: flex;
@@ -97,16 +123,6 @@ nav ul li a:hover {
   top: 8px;
 }
 
-.img {
-  width: 20rem;
-  height: 20rem;
-  margin: 5rem;
-  display: flex;
-  border-width: 8rem;
-  padding: 5px 5px;
-  background-color: rgb(240, 240, 240);
-  object-fit: cover;
-}
 
 #Hawaii {
   display: flex;
@@ -131,22 +147,24 @@ nav ul li a:hover {
   padding: 12px;
 }
 
-.img1 {
+.img1, .img2, .img3, .img4 {
   height: 15rem;
   width: 15rem;
   margin: auto;
   display: block;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .foodtitle {
   font-size: 1.5rem;
-  font-family: "Lobster Two", cursive;
+  font-family: 'Crete Round', serif;
 }
 
 .info {
   margin-top: -0.9rem;
-  font-size: 0.8rem;
-  font-family: "Lato", sans-serif;
+  font-size: 0.9rem;
+  font-family: 'Crete Round', serif;
 }
 
 .Title1 {
@@ -154,7 +172,7 @@ nav ul li a:hover {
   text-align: center;
   padding: 5px;
   margin-bottom: -3rem;
-  font-family: "Lobster Two", cursive;
+  font-family: "Abril Fatface", cursive;
   text-decoration: underline;
   margin-top: 15rem;
 }
@@ -250,6 +268,15 @@ display: flex;
   .card3,
   .card4 {
     width: 35%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:35em){
+  .menuList{
+    position: fixed;
+    inset: 0 0 0 30%;
+    background: aqua;
     flex-direction: column;
   }
 }
