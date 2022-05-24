@@ -1,8 +1,8 @@
-@import url(sections.css);
-@import url(norway.css);
-@import url(africa.css);
-@import url(egypt.css);
-@import url(mexico.css);
+@import url(navbar.css);
+@import url(hawaii.css);
+@import url(fiji.css);
+@import url(palau.css);
+@import url(samoa.css);
 
 html,
 body {
@@ -159,6 +159,8 @@ nav ul li a:hover {
   display: block;
   object-fit: cover;
   border-radius: 5px;
+  object-position: 20% 10%;
+  transition: all 0.15s;
 }
 
 .foodtitle {
