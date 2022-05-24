@@ -17,6 +17,11 @@ body {
   --secondary: var(--dark-green);
 }
 
+.logo{
+  font-size: 1.2rem;
+  font-family: "Abril Fatface", cursive;
+
+}
 
 
 .container {
@@ -72,7 +77,7 @@ nav ul li a:hover {
 .img1:hover{
   -webkit-transform: scale(0.9);
 	transform: scale(0.9);
-  transition: 0.3s ease-out;
+  transition: 0.2s ease-out;
 }
 
 .img2:hover{
@@ -247,7 +252,7 @@ display: flex;
   padding: 12px;
 }
 
-@media screen and (max-width: 541px) {
+@media screen and (max-width: 800px) {
   .card1,
   .card2,
   .card3,
