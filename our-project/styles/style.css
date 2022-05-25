@@ -23,6 +23,12 @@ body {
   --secondary: var(--dark-green);
 }
 
+.title {
+  color: white;
+}
+
+
+
 .container {
   width: 100%;
   min-height: 100vh;
