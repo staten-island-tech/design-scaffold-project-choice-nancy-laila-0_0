@@ -132,7 +132,7 @@ nav ul li a:hover {
   margin-top: 5rem;
 }
 
-.card1 {
+.card {
   background-color: rgb(131, 231, 131);
   width: 27%;
   height: 70vh;
@@ -190,16 +190,6 @@ nav ul li a:hover {
   margin-top: 5rem;
 }
 
-.card2 {
-  background-color: rgb(131, 231, 131);
-  width: 27%;
-  height: 70vh;
-  margin: 10px;
-  border-radius: 17px;
-  padding: 10px;
-  box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
-}
-
 .Card-img2 {
   background-image: url(images/bck.jpg);
   border-radius: 5px;
@@ -213,16 +203,6 @@ nav ul li a:hover {
   margin-top: 5rem;
 }
 
-.card3 {
-  background-color: rgb(125, 221, 125);
-  width: 27%;
-  height: 70vh;
-  margin: 10px;
-  border-radius: 17px;
-  padding: 10px;
-  box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
-}
-
 .Card-img3 {
   background-image: url(images/bck.jpg);
   border-radius: 5px;
@@ -234,16 +214,6 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   margin-top: 5rem;
-}
-
-.card4 {
-  background-color: rgb(131, 231, 131);
-  width: 27%;
-  height: 70vh;
-  margin: 10px;
-  border-radius: 17px;
-  padding: 10px;
-  box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
 }
 
 .Card-img4 {
