@@ -270,11 +270,12 @@ display: flex;
   .card2,
   .card3,
   .card4 {
-    width: 47%;
+    width: 100%;
     font-size: 1.5rem;
     flex-direction: column;
+    margin: 50px;
   }
-.img1{
+.img1, .img2, .img3, .img4{
   width:10rem;
   height:10rem;
 }
@@ -312,6 +313,10 @@ nav ul li{
 #menuList{
   overflow: hidden;
   transition: 0.5s;
+}
+.row{
+  flex-direction: column-reverse;
+  margin: 65px 0;
 }
 
 }
