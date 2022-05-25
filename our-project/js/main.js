@@ -16,6 +16,11 @@ function togglemenu(){
         menuList.style.maxHeight="0px"
     }
 }
+//document.queryselctor
+//add event lisetener "click"
+//call function
+togglemenu();
+
 
 
 
@@ -39,16 +44,16 @@ const tl1= gsap.timeline({ScrollTrigger: ".col-2", delay:0.2});
 tl1.from(".col-1", {opacity:0, duration:2.4})
 
 const tl2=gsap.timeline({scrollTrigger:".T1", delay:0.2})
-tl2.from(".T1", { duration: 0.2, opacity: 0,   scale: 0.8, translateY: 50, transformOrigin: 'center center', })
+tl2.from(".T1", { duration: 0.45, opacity: 0,   scale: 0.8, translateY: 50, transformOrigin: 'center center', })
 
 const tl3=gsap.timeline({scrollTrigger:".T2", delay:0.2})
-tl3.from(".T2", { duration: 0.2, opacity: 0,   scale: 0.8, translateY: 50, transformOrigin: 'center center', })
+tl3.from(".T2", { duration: 0.45, opacity: 0,   scale: 0.8, translateY: 50, transformOrigin: 'center center', })
 
 const tl4=gsap.timeline({scrollTrigger:".T3", delay:0.2})
-tl4.from(".T3", { duration: 0.2, opacity: 0,   scale: 0.8, translateY: 50, transformOrigin: 'center center', })
+tl4.from(".T3", { duration: 0.45, opacity: 0,   scale: 0.8, translateY: 50, transformOrigin: 'center center', })
 
 const tl5=gsap.timeline({scrollTrigger:".T4", delay:0.2})
-tl5.from(".T4", { duration: 0.2, opacity: 0,   scale: 0.8, translateY: 50, transformOrigin: 'center center', })
+tl5.from(".T4", { duration: 0.45, opacity: 0,   scale: 0.8, translateY: 50, transformOrigin: 'center center', })
 
 
 

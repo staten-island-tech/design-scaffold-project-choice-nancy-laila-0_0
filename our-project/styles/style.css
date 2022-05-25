@@ -27,6 +27,11 @@ body {
 
 }
 
+.navT{
+  font-size: 1.5rem;
+  color:white;
+}
+
 .menu-icon{
   width: 25px;
   cursor: pointer;
@@ -67,6 +72,7 @@ nav {
   align-items: center;
   right: 0;
   left: 0;
+  z-index: 1;
 }
 
 nav ul li {
@@ -265,19 +271,36 @@ display: flex;
   padding: 12px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width:900px){
+  .info{
+    font-size:1.4rem;
+  }
   .card1,
   .card2,
   .card3,
   .card4 {
-    width: 100%;
-    font-size: 1.5rem;
+    height:80%;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  #Hawaii, #Fiji, #Palau, #Samoa{
     flex-direction: column;
-    margin: 50px;
+    
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    width: 90%;
+    height:45%;
+    flex-direction: column;
+    margin: 50px auto;
   }
 .img1, .img2, .img3, .img4{
-  width:10rem;
-  height:10rem;
+  width:20rem;
+  height:11.5rem;
 }
 }
 
@@ -296,14 +319,14 @@ display: flex;
     width:100%;
     background: rgb(99, 192, 192);
     position: absolute;
-    top:75px;
+    top:50px;
     right:0;
-    z-index:2;
+    z-index:1;
   }
 nav ul li{
   display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 7px;
 }
 
 .menu-icon{
@@ -316,14 +339,10 @@ nav ul li{
 }
 .row{
   flex-direction: column-reverse;
-  margin: 65px 0;
+  margin: 65px auto;
 }
 
 }
-
-
-
-
 
 .col-2{
   position: relative;
