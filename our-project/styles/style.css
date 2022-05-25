@@ -105,6 +105,14 @@ nav ul li a:hover {
   color: rgb(159, 198, 243);
 }
 
+.title {
+  font-size: 3rem;
+  text-align: center;
+  padding: 5px;
+  font-family: "Abril Fatface", cursive;
+  text-decoration: underline;
+}
+
 /* .img1:hover {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
