@@ -23,7 +23,7 @@ body {
   --secondary: var(--dark-green);
 }
 
-.title {
+.miniTitle {
   color: white;
 }
 
