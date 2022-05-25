@@ -6,6 +6,10 @@ body {
   flex-direction: column;
 }
 
+.heading{
+  position: fixed;
+}
+
 :root {
   --black: #000;
   --light-green: #83e783;
@@ -21,6 +25,12 @@ body {
   font-size: 1.2rem;
   font-family: "Abril Fatface", cursive;
 
+}
+
+.menu-icon{
+  width: 25px;
+  cursor: pointer;
+  display: none;
 }
 
 
@@ -49,11 +59,14 @@ body {
 }
 
 nav {
-  min-height: 8vh;
-  background-color: rgb(72, 151, 151);
+  position: fixed;
+  min-height: 5vh;
+  background-color: rgb(99, 192, 192);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  right: 0;
+  left: 0;
 }
 
 nav ul li {
@@ -70,7 +83,7 @@ nav ul li a {
   font-family: 'Lato', sans-serif;
 }
 
-nav ul li a:hover {
+ nav ul li a:hover {
   color: rgb(159, 198, 243);
 }
 
@@ -277,11 +290,44 @@ display: flex;
   }
 }
 
-@media (max-width:35em){
-  .menuList{
-    position: fixed;
-    inset: 0 0 0 30%;
-    background: aqua;
-    flex-direction: column;
+@media only screen and (max-width:700px){
+  nav ul{
+    width:100%;
+    background: rgb(99, 192, 192);
+    position: absolute;
+    top:75px;
+    right:0;
+    z-index:2;
   }
+nav ul li{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
+.menu-icon{
+  display: block;
+}
+
+#menuList{
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+}
+
+
+
+
+
+.col-2{
+  position: relative;
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.col-2 .tree{
+  width:90%;
+}
+
