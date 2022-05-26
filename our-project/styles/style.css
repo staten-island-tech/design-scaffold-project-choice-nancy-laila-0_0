@@ -355,3 +355,26 @@ nav ul li{
   width:90%;
 }
 
+footer {
+  margin-top: 7rem;
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(99, 192, 192);
+  color: white;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.footertext {
+  color: white;
+}
+.footerbigtext {
+  font-size: 25px;
+}
