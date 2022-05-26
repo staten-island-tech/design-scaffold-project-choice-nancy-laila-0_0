@@ -6,10 +6,19 @@
 
 html,
 body {
+  --color-primary: rgb(131, 231, 131);
+  --color-secondary: rgb(26, 156, 156);
+  --font-color: #000000;
   padding: 0%;
   margin: 0%;
   background: #ffffffe7;
   flex-direction: column;
+}
+
+.dark {
+  --color-primary: #312e47;
+  --color-secondary: #ff4876;
+  --font-color: #ffffff;
 }
 
 .row {
@@ -226,7 +235,6 @@ body {
   }
 }
 
- 
 .col-2 {
   position: relative;
   flex-basis: 60%;
