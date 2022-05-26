@@ -1,3 +1,9 @@
+@import url(hawaii.css);
+@import url(fiji.css);
+@import url(palau.css);
+@import url(samoa.css);
+
+
 html,
 body {
   padding: 0%;
@@ -116,9 +122,8 @@ nav ul li a {
   margin: auto;
   display: block;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 8px;
 }
-
 
 
 .img1:hover{
