@@ -3,3 +3,10 @@
     justify-content: center;
     margin-top: 5rem;
   }
+
+.img4:hover{
+    transform: rotate(-20deg) scale(0.85);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+  
