@@ -18,18 +18,18 @@ body {
   align-items: center;
   margin: 100px 0;
 }
- 
+
 .col-1 {
   flex-basis: 40%;
   position: relative;
   margin-left: 50px;
 }
- 
+
 .col-1 h2 {
   font-size: 55px;
   font-family: "Abril Fatface", cursive;
 }
- 
+
 .col-1::after {
   content: "";
   width: 12px;
@@ -39,8 +39,7 @@ body {
   left: -40px;
   top: 8px;
 }
- 
- 
+
 .card1 {
   background-color: rgb(131, 231, 131);
   width: 27%;
@@ -50,15 +49,18 @@ body {
   padding: 10px;
   box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
 }
- 
+
 .Card-img1 {
   background-image: url(images/bck.jpg);
   border-radius: 5px;
   background-size: cover;
   padding: 12px;
 }
- 
-.img1, .img2, .img3, .img4 {
+
+.img1,
+.img2,
+.img3,
+.img4 {
   height: 15rem;
   width: 15rem;
   margin: auto;
@@ -69,18 +71,18 @@ body {
   border-color: rgb(8, 41, 70);
   transition: all 0.15s;
 }
- 
+
 .foodtitle {
   font-size: 1.5rem;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
 }
- 
+
 .info {
   margin-top: -0.9rem;
   font-size: 0.9rem;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
 }
- 
+
 .Title1 {
   font-size: 3rem;
   text-align: center;
@@ -90,7 +92,7 @@ body {
   text-decoration: underline;
   margin-top: 20rem;
 }
- 
+
 .card2 {
   background-color: rgb(131, 231, 131);
   width: 27%;
@@ -100,7 +102,7 @@ body {
   padding: 10px;
   box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
 }
- 
+
 .Card-img2 {
   background-image: url(images/bck.jpg);
   border-radius: 5px;
@@ -108,7 +110,6 @@ body {
   padding: 12px;
 }
 
- 
 .card3 {
   background-color: rgb(125, 221, 125);
   width: 27%;
@@ -118,14 +119,14 @@ body {
   padding: 10px;
   box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
 }
- 
+
 .Card-img3 {
   background-image: url(images/bck.jpg);
   border-radius: 5px;
   background-size: cover;
   padding: 12px;
 }
- 
+
 .card4 {
   background-color: rgb(131, 231, 131);
   width: 27%;
@@ -135,50 +136,54 @@ body {
   padding: 10px;
   box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
 }
- 
+
 .Card-img4 {
   background-image: url(images/bck.jpg);
   border-radius: 5px;
   background-size: cover;
   padding: 12px;
 }
- 
-@media screen and (min-width:900px){
-  .info{
-    font-size:1.4rem;
+
+@media screen and (min-width: 900px) {
+  .info {
+    font-size: 1.4rem;
   }
   .card1,
   .card2,
   .card3,
   .card4 {
-    height:80%;
+    height: 80%;
   }
 }
- 
- 
+
 @media screen and (max-width: 800px) {
-  #Hawaii, #Fiji, #Palau, #Samoa{
+  #Hawaii,
+  #Fiji,
+  #Palau,
+  #Samoa {
     flex-direction: column;
-   
   }
   .card1,
   .card2,
   .card3,
   .card4 {
     width: 90%;
-    height:45%;
+    height: 45%;
     flex-direction: column;
     margin: 50px auto;
   }
-.img1, .img2, .img3, .img4{
-  width:20rem;
-  height:11.5rem;
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    width: 20rem;
+    height: 11.5rem;
+  }
+  .frontimg {
+    width: 75%;
+  }
 }
-.frontimg {
-  width: 75%;
-}
-}
- 
+
 @media screen and (min-width: 540px) {
   .card1,
   .card2,
@@ -188,55 +193,56 @@ body {
     flex-direction: column;
   }
 }
- 
-@media only screen and (max-width:700px){
-  nav ul{
-    width:100%;
+
+@media only screen and (max-width: 700px) {
+  nav ul {
+    width: 100%;
     background: rgb(99, 192, 192);
     position: absolute;
-    top:50px;
-    right:0;
-    z-index:1;
+    top: 50px;
+    right: 0;
+    z-index: 1;
   }
-nav ul li{
-  display: block;
-  margin-top: 5px;
-  margin-bottom: 7px;
+  nav ul li {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 7px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  #menuList {
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .row {
+    flex-direction: column-reverse;
+    margin: 65px auto;
+  }
+  .frontimg {
+    width: 50%;
+  }
 }
+
  
-.menu-icon{
-  display: block;
-}
- 
-#menuList{
-  overflow: hidden;
-  transition: 0.5s;
-}
-.row{
-  flex-direction: column-reverse;
-  margin: 15rem auto;
-}
-.frontimg {
-  width: 50%;
-} 
-}
- 
-.col-2{
+.col-2 {
   position: relative;
   flex-basis: 60%;
   display: flex;
   align-items: center;
 }
- 
-.col-2 .tree{
-  width:90%;
+
+.col-2 .tree {
+  width: 90%;
 }
- 
+
 footer {
   margin-top: 7rem;
   text-align: center;
   padding: 3px;
-  background-color: rgb(26, 156, 156);;
+  background-color: rgb(26, 156, 156);
   color: white;
 }
 
