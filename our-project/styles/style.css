@@ -101,14 +101,7 @@ body {
   box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
 }
  
-.Card-img2 {
-  background-image: url(images/bck.jpg);
-  border-radius: 5px;
-  background-size: cover;
-  padding: 12px;
-}
 
- 
 .card3 {
   background-color: rgb(125, 221, 125);
   width: 27%;
@@ -117,13 +110,6 @@ body {
   border-radius: 17px;
   padding: 10px;
   box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
-}
- 
-.Card-img3 {
-  background-image: url(images/bck.jpg);
-  border-radius: 5px;
-  background-size: cover;
-  padding: 12px;
 }
  
 .card4 {
@@ -136,12 +122,6 @@ body {
   box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
 }
  
-.Card-img4 {
-  background-image: url(images/bck.jpg);
-  border-radius: 5px;
-  background-size: cover;
-  padding: 12px;
-}
  
 @media screen and (min-width:900px){
   .info{
