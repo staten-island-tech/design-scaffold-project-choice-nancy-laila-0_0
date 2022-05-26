@@ -2,17 +2,6 @@
   position: fixed;
 }
 
-:root {
-  --black: #000;
-  --light-green: #83e783;
-  --light-blue: #98b2da;
-  --dark-blue: #505b9c;
-  --dark-green: #97b8a1e7;
-
-  --primary: var(--light-green);
-  --secondary: var(--dark-green);
-}
-
 .logo {
   font-size: 1.2rem;
   font-family: "Abril Fatface", cursive;
