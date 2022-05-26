@@ -214,7 +214,7 @@ nav ul li{
 }
 .row{
   flex-direction: column-reverse;
-  margin: 65px auto;
+  margin: 15rem auto;
 }
 .frontimg {
   width: 50%;
