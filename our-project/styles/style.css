@@ -9,16 +9,18 @@ body {
   --color-primary: rgb(131, 231, 131);
   --color-secondary: rgb(26, 156, 156);
   --font-color: #000000;
+  --site-color: #ffffff;
   padding: 0%;
   margin: 0%;
-  background: #ffffffe7;
+  background: var(--site-color);
   flex-direction: column;
 }
 
 .dark {
   --color-primary: #312e47;
-  --color-secondary: #ff4876;
+  --color-secondary: #037381;
   --font-color: #ffffff;
+  --site-color: #000000;
 }
 
 .row {
@@ -273,6 +275,6 @@ footer {
   font-size: 25px;
 }
 
-.T1{
-margin-top: 25rem;
+.T1 {
+  margin-top: 25rem;
 }
