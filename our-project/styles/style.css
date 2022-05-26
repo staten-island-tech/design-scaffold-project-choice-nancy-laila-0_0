@@ -72,7 +72,7 @@ body {
 nav {
   position: fixed;
   min-height: 5vh;
-  background-color: rgb(99, 192, 192);
+  background-color: rgb(26, 156, 156);;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -202,16 +202,6 @@ nav ul li a {
 }
 
 
-.card2 {
-  background-color: rgb(131, 231, 131);
-  width: 27%;
-  height: 70vh;
-  margin: 10px;
-  border-radius: 17px;
-  padding: 10px;
-  box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
-}
-
 .Card-img2 {
   background-image: url(images/bck.jpg);
   border-radius: 5px;
@@ -220,37 +210,11 @@ nav ul li a {
 }
 
 
-.card3 {
-  background-color: rgb(125, 221, 125);
-  width: 27%;
-  height: 70vh;
-  margin: 10px;
-  border-radius: 17px;
-  padding: 10px;
-  box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
-}
-
 .Card-img3 {
   background-image: url(images/bck.jpg);
   border-radius: 5px;
   background-size: cover;
   padding: 12px;
-}
-
-#Palau {
-  display: flex;
-  justify-content: center;
-  margin-top: 5rem;
-}
-
-.card4 {
-  background-color: rgb(131, 231, 131);
-  width: 27%;
-  height: 70vh;
-  margin: 10px;
-  border-radius: 17px;
-  padding: 10px;
-  box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
 }
 
 .Card-img4 {
@@ -348,7 +312,7 @@ footer {
   margin-top: 7rem;
   text-align: center;
   padding: 3px;
-  background-color: rgb(99, 192, 192);
+  background-color: rgb(26, 156, 156);;
   color: white;
 }
 
