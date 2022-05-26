@@ -13,9 +13,7 @@ function togglemenu() {
     menuList.style.maxHeight = "0px";
   }
 }
-//document.queryselctor
-//add event lisetener "click"
-//call function
+
 togglemenu();
 
 const tl1 = gsap.timeline({ ScrollTrigger: ".col-2", delay: 0.2 });
