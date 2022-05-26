@@ -27,79 +27,6 @@ body {
   --secondary: var(--dark-green);
 }
 
-.logo{
-  font-size: 1.2rem;
-  font-family: "Abril Fatface", cursive;
-
-}
-
-.navT{
-  font-size: 1.5rem;
-  color:white;
-  margin-left: 1rem;
-}
-
-.menu-icon{
-  width: 25px;
-  cursor: pointer;
-  display: none;
-}
-
-
-.container {
-  width: 100%;
-  min-height: 100vh;
-  padding-left: 8%;
-  padding-right: 8%;
-  box-sizing: border-box;
-}
-
-#navbar {
-  overflow: hidden;
-}
-
-.menu div {
-  width: 30px;
-  height: 3px;
-  cursor: pointer;
-  margin: 5px;
-  background-color: white;
-}
-
-.menu {
-  display: none;
-}
-
-nav {
-  position: fixed;
-  min-height: 5vh;
-  background-color: rgb(26, 156, 156);;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  right: 0;
-  left: 0;
-  z-index: 1;
-}
-
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin-right: 30px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  width: 100px;
-  font-size: 15px;
-  color: rgb(255, 255, 255);
-  font-family: 'Lato', sans-serif;
-}
-
- nav ul li a:hover {
-  color: rgb(159, 198, 243);
-}
-
 .card {
   background-color: rgb(131, 231, 131);
   width: 27%;
@@ -124,6 +51,17 @@ nav ul li a {
   display: block;
   object-fit: cover;
   border-radius: 8px;
+}
+
+.Title {
+  position: absolute;
+  font-size: 3rem;
+  text-align: center;
+  padding: 5px;
+  margin-top: 15rem;
+  margin-bottom: -3rem;
+  font-family: "Abril Fatface", cursive;
+  text-decoration: underline;
 }
 
 
@@ -190,39 +128,6 @@ nav ul li a {
   margin-top: -0.9rem;
   font-size: 0.9rem;
   font-family: 'Crete Round', serif;
-}
-
-.Title {
-  font-size: 3rem;
-  text-align: center;
-  padding: 5px;
-  margin-bottom: -3rem;
-  font-family: "Abril Fatface", cursive;
-  text-decoration: underline;
-  margin-top: 15rem;
-}
-
-
-.Card-img2 {
-  background-image: url(images/bck.jpg);
-  border-radius: 5px;
-  background-size: cover;
-  padding: 12px;
-}
-
-
-.Card-img3 {
-  background-image: url(images/bck.jpg);
-  border-radius: 5px;
-  background-size: cover;
-  padding: 12px;
-}
-
-.Card-img4 {
-  background-image: url(images/bck.jpg);
-  border-radius: 5px;
-  background-size: cover;
-  padding: 12px;
 }
 
 @media screen and (min-width:900px){
