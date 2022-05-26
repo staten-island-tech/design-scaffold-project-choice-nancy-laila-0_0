@@ -1,0 +1,11 @@
+.frontimg {
+    position: relative;
+    top: 0rem;
+    float: right;
+    margin-left: auto;
+    margin-right: 5rem;
+    width: 55%;
+    height: 55%;
+    border-radius: 60px;
+  }
+
