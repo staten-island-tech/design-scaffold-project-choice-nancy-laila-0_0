@@ -46,7 +46,7 @@
 nav {
   position: fixed;
   min-height: 5vh;
-  background-color: rgb(26, 156, 156);
+  background-color: var(--color-secondary);
   display: flex;
   justify-content: space-between;
   align-items: center;

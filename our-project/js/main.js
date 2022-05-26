@@ -57,13 +57,11 @@ tl5.from(".T4", {
   transformOrigin: "center center",
 });
 
-/*tl.to(".T1", { duration: 0.2, opacity: 0,   scale: 0.8, translateY: 50, transformOrigin: 'center center', })*/
-
-/* checks if the theme stored in localStorage is dark
-if yes apply the dark theme to the body */
+const toggle = document.getElementById("toggle");
+const refresh = document.getElementById("refresh");
+const theme = window.localStorage.getItem("theme");
 if (theme === "dark") document.body.classList.add("dark");
 
-// event listener stops when the change theme button is clicked
 toggle.addEventListener("click", () => {
   document.body.classList.toggle("dark");
   if (theme === "dark") {
