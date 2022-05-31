@@ -78,7 +78,8 @@ nav ul li a:hover {
   top: 0rem;
   float: right;
   margin-left: auto;
-  margin-right: 5rem;
+  margin-right: 15rem;
+  margin-top: 5rem;
   width: 55%;
   height: 55%;
   border-radius: 60px;
@@ -87,7 +88,6 @@ nav ul li a:hover {
 .button {
   color: var(--font-color);
   background-color: var(--color-primary);
-  border: 3px solid var(--color-secondary);
   font-family: inherit;
   font-size: 25px;
   font-weight: bold;
