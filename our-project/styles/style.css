@@ -6,10 +6,10 @@
 
 html,
 body {
-  --color-primary: rgb(131, 231, 131);
-  --color-secondary: rgb(26, 156, 156);
-  --font-color: #000000;
-  --site-color: #ffffff;
+  --color-primary: #312e47;
+  --color-secondary: #037381;
+  --font-color: #ffffff;
+  --site-color: #000000;
   padding: 0%;
   margin: 0%;
   background: var(--site-color);
@@ -17,10 +17,10 @@ body {
 }
 
 .dark {
-  --color-primary: #312e47;
-  --color-secondary: #037381;
-  --font-color: #ffffff;
-  --site-color: #000000;
+  --color-primary: rgb(131, 231, 131);
+  --color-secondary: rgb(26, 156, 156);
+  --font-color: #000000;
+  --site-color: #ffffff;
 }
 
 .row {
