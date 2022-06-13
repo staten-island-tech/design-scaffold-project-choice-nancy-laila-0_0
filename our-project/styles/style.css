@@ -278,3 +278,13 @@ footer {
 .T1 {
   margin-top: 25rem;
 }
+
+@media only screen and (min-width: 667px){
+  .img1, 
+  .img2, 
+  .img3, 
+  .img4
+  {
+    width:14rem;
+    height:14rem  }
+}
